@@ -3,8 +3,9 @@ Part 1
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/part1.png)
 
 Part 2
-替换渲染
+屏幕后处理、替换渲染、Pass渲染
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/depth.png)
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/depth1.png)
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/depth2.png)
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/depth3.png)
+![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/多pass渲染.gif)
