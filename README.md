@@ -9,3 +9,4 @@ Part 2
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/depth2.png)
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/depth3.png)
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/多pass渲染.gif)
+![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/后处理颜色反向渲染.gif)
