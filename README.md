@@ -16,5 +16,7 @@ Part 2
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/part2test4_1.gif)
 
 Part 3
-法线
+法线和物体坐标的关系，法线和视角、世界坐标系的关系，用法线实现的透视效果
 ![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/part3normal1.png)
+![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/part3normal2.gif)
+![image](https://github.com/1091515459/shaderlabLaboratory/blob/master/part3normal3.png)
