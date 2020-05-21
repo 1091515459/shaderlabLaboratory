@@ -62,57 +62,58 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Part1\Scripts\PostEffects.cs" />
-    <Compile Include="Assets\Part2\Scripts\ReplacementShaderEffect.cs" />
-    <Compile Include="Assets\Part2\Scripts\ReplacementShaderEffect1.cs" />
-    <None Include="Assets\Part2\shaders\DepthShader.shader" />
-    <None Include="Assets\Part3\shaders\LightNormal.shader" />
-    <None Include="Assets\Part1\shaders\shaderLearn4.shader" />
+    <Compile Include="Assets\shader从入门到跑路\Part1\Scripts\PostEffects.cs" />
+    <Compile Include="Assets\shader从入门到跑路\Part2\Scripts\ReplacementShaderEffect.cs" />
+    <Compile Include="Assets\shader从入门到跑路\Part2\Scripts\ReplacementShaderEffect1.cs" />
+    <None Include="Assets\shader从入门到跑路\Part2\shaders\DepthShader.shader" />
+    <None Include="Assets\shader从入门到跑路\Part3\shaders\LightNormal.shader" />
+    <None Include="Assets\UnityShader入门精要\5\Resource\shader\FalseColor.shader" />
+    <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn4.shader" />
     <None Include="Assets\UnityCG.cginc" />
-    <None Include="Assets\Part2\shaders\OverDrawShader.shader" />
-    <None Include="Assets\Part1\shaders\shaderLearn1.shader" />
-    <None Include="Assets\Part1\shaders\shaderLearn3.shader" />
-    <None Include="Assets\Part3\shaders\ViewNormal.shader" />
-    <None Include="Assets\Part1\shaders\shaderLearn6.shader" />
-    <None Include="Assets\Part1\shaders\shaderLearn7.shader" />
-    <None Include="Assets\Part2\shaders\DoubleTransparentRipple.shader" />
-    <None Include="Assets\Part1\shaders\shaderLearn2.shader" />
-    <None Include="Assets\model\1532071677_941.fbx\说明read me_3DXY.txt" />
-    <None Include="Assets\Part2\shaders\AntiColor.shader" />
-    <None Include="Assets\Part3\shaders\EdgeDetection.shader" />
-    <None Include="Assets\Part1\shaders\shaderLearn5.shader" />
-    <None Include="Assets\model\1539849352_8834.fbx\说明read me_3DXY.txt" />
+    <None Include="Assets\shader从入门到跑路\Part2\shaders\OverDrawShader.shader" />
+    <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn1.shader" />
+    <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn3.shader" />
+    <None Include="Assets\shader从入门到跑路\Part3\shaders\ViewNormal.shader" />
+    <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn6.shader" />
+    <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn7.shader" />
+    <None Include="Assets\shader从入门到跑路\Part2\shaders\DoubleTransparentRipple.shader" />
+    <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn2.shader" />
+    <None Include="Assets\shader从入门到跑路\model\1532071677_941.fbx\说明read me_3DXY.txt" />
+    <None Include="Assets\shader从入门到跑路\Part2\shaders\AntiColor.shader" />
+    <None Include="Assets\shader从入门到跑路\Part3\shaders\EdgeDetection.shader" />
+    <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn5.shader" />
+    <None Include="Assets\shader从入门到跑路\model\1539849352_8834.fbx\说明read me_3DXY.txt" />
     <None Include="Assets\UnityShaderVariables.cginc" />
-    <None Include="Assets\Part2\shaders\ReplacementSelfTesting.shader" />
-    <None Include="Assets\Part2\shaders\DoubleTransparent.shader" />
-    <None Include="Assets\Part2\shaders\DepthShader_Traget.shader" />
-    <None Include="Assets\Part3\shaders\Perspective.shader" />
+    <None Include="Assets\shader从入门到跑路\Part2\shaders\ReplacementSelfTesting.shader" />
+    <None Include="Assets\shader从入门到跑路\Part2\shaders\DoubleTransparent.shader" />
+    <None Include="Assets\shader从入门到跑路\Part2\shaders\DepthShader_Traget.shader" />
+    <None Include="Assets\shader从入门到跑路\Part3\shaders\Perspective.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/user/homework/shaderlabshiyanshi/shaderlabLaboratory/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/user/homework/shaderlabLaboratory/shaderlabLaboratory/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity2019.2.17/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
