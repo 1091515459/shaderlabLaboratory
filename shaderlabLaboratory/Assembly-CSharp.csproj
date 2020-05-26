@@ -67,6 +67,7 @@
     <Compile Include="Assets\shader从入门到跑路\Part2\Scripts\ReplacementShaderEffect1.cs" />
     <None Include="Assets\shader从入门到跑路\Part2\shaders\DepthShader.shader" />
     <None Include="Assets\UnityShader入门精要\7\Resource\shader\SingleTexture.shader" />
+    <None Include="Assets\UnityShader入门精要\7\Resource\shader\NormalMapTangentSpace.shader" />
     <None Include="Assets\shader从入门到跑路\Part3\shaders\LightNormal.shader" />
     <None Include="Assets\UnityShader入门精要\5\Resource\shader\FalseColor.shader" />
     <None Include="Assets\UnityShader入门精要\6\Resource\shader\SpecularPixelLevel.shader" />

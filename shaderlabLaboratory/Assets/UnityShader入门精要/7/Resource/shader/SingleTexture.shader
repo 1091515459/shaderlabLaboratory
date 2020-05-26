@@ -7,7 +7,7 @@ Shader "Unity Shaders Book/Chapter 7/Single Texture"
         _Color ("Color Tint",Color) = (1,1,1,1)
         _MainTex ("Texture", 2D) = "white" {}
         _Specular ("Specular",Color) = (1,1,1,1)
-        _Gloss ("GLoss",Rang(8.0,256)) = 20
+        _Gloss ("GLoss",Range(8.0,256)) = 20
     }
     SubShader
     {
@@ -45,7 +45,7 @@ Shader "Unity Shaders Book/Chapter 7/Single Texture"
             v2f vert (appdata v)
             {
                 v2f o;
-                o.vertex = UnityObjectToClipPos(v.vertex);
+                o.pos = UnityObjectToClipPos(v.vertex);
                 o.worldNormal = UnityObjectToWorldNormal(v.normal);
                 o.worldPos = mul(unity_ObjectToWorld,v.vertex);
                 // o.uv = v.uv.xy * _MainTex_ST.xy + _MainTex_ST.zw;
@@ -53,15 +53,14 @@ Shader "Unity Shaders Book/Chapter 7/Single Texture"
                 return o;
             }
 
-            sampler2D _MainTex;
-
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed3 worldNormal = normalize(i.worldNormal);
                 fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(i.worldPos));
                 //使用纹理对漫反射颜色进行采样
                 fixed3 albedo = tex2D(_MainTex,i.uv).rgb * _Color.rgb;
-                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * max(0,dot(worldNormal,worldLightDir));
+                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;
+                fixed3 diffuse = _LightColor0.rgb * albedo * max(0,dot(worldNormal,worldLightDir));
                 fixed3 viewDir = normalize(UnityWorldSpaceViewDir(i.worldPos));
                 fixed3 halfDir = normalize(worldLightDir + viewDir);
                 fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(max(0,dot(worldNormal,halfDir)),_Gloss);
