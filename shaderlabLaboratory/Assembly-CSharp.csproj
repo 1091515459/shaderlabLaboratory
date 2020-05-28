@@ -77,6 +77,7 @@
     <None Include="Assets\UnityShader入门精要\6\Resource\shader\DiffuseVertexLevel.shader" />
     <None Include="Assets\UnityShader入门精要\6\Resource\shader\SpecularVertexLevel.shader" />
     <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn1.shader" />
+    <None Include="Assets\UnityShader入门精要\7\Resource\shader\NormalMapWorldSpace.shader" />
     <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn3.shader" />
     <None Include="Assets\shader从入门到跑路\Part3\shaders\ViewNormal.shader" />
     <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn6.shader" />
