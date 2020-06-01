@@ -87,6 +87,20 @@ Shader "Unity Shaders Book/Chapter 7/Normal Map World Space"
                 fixed3 halfDir = normalize(tangentLightDir + tangentViewDir);
                 fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(max(0,dot(tangentNormal,halfDir)),_Gloss);
 
+                //获得世界空间的位置     
+                float3 worldPos = float3(i.TtoW0.w, i.TtoW1.w, i.TtoW2.w);
+                //计算世界空间中的灯光和视图方向
+                fixed3 lightDir = normalize(UnityWorldSpaceLightDir(worldPos));
+                fixed3 viewDir = normalize(UnityWorldSpaceViewDir(worldPos));
+                
+                //求切线空间中的法向量
+                fixed3 bump = UnpackNormal(tex2D(_BumpMap, i.uv.zw));
+                bump.xy *= _BumpScale;
+                bump.z = sqrt(1.0 - saturate(dot(bump.xy, bump.xy)));
+                //从切线空间到世界空间的法向变换
+                bump = normalize(half3(dot(i.TtoW0.xyz, bump), dot(i.TtoW1.xyz, bump), dot(i.TtoW2.xyz, bump)));
+
+
                 return fixed4(ambient + diffuse + specular,1.0);
             }
             ENDCG

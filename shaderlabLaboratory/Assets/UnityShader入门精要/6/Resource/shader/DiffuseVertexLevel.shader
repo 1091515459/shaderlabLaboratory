@@ -1,5 +1,7 @@
 ﻿// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
 
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+
 Shader "Unity Shaders Book/Chapter 6/Diffuse Vertex-Level"{
 	Properties {
 		_Diffuse("Diffuse",Color)=(1,1,1,1)

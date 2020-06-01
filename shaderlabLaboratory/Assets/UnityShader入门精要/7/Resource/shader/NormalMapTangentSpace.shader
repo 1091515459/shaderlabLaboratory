@@ -69,11 +69,14 @@ Shader "Unity Shaders Book/Chapter 7/Normal Map In Tangent"
             fixed4 frag (v2f i) : SV_Target
             {
                 fixed3 tangentLightDir = normalize(i.lightDir);
-                fixed3 tangentViewDir = normalize(i.viewDir);
-
+                fixed3 tangentViewDir = normalize(i.viewDir);              
+                //在法线贴图中获取texel
                 fixed4 packedNormal = tex2D(_BumpMap,i.uv.zw);
                 fixed3 tangentNormal;
-
+                //如果纹理未标记为“法线贴图”
+                //  tangentNormal.xy = (packedNormal.xy * 2 - 1) * _BumpScale;
+                //  tangentNormal.z = sqrt(1.0 - saturate(dot(tangentNormal.xy, tangentNormal.xy)));
+                //或者将纹理标记为“法线贴图”，并使用内置功能
                 tangentNormal = UnpackNormal(packedNormal);
                 tangentNormal.xy *=_BumpScale;
                 tangentNormal.z = sqrt(1.0 - saturate(dot(tangentNormal.xy,tangentNormal.xy)));

@@ -10,7 +10,7 @@ Shader "Unity Shaders Book/Chapter 6/Diffuse Pixe-Level"{
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
-			#include "LIghting.cginc"
+			#include "Lighting.cginc"
 
 			fixed4 _Diffuse;
 
