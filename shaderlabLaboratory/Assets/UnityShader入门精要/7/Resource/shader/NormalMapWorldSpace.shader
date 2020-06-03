@@ -71,21 +71,21 @@ Shader "Unity Shaders Book/Chapter 7/Normal Map World Space"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                fixed3 tangentLightDir = normalize(i.lightDir);
-                fixed3 tangentViewDir = normalize(i.viewDir);
+                // fixed3 tangentLightDir = normalize(i.lightDir);
+                // fixed3 tangentViewDir = normalize(i.viewDir);
 
-                fixed4 packedNormal = tex2D(_BumpMap,i.uv.zw);
-                fixed3 tangentNormal;
+                // fixed4 packedNormal = tex2D(_BumpMap,i.uv.zw);
+                // fixed3 tangentNormal;
 
-                tangentNormal = UnpackNormal(packedNormal);
-                tangentNormal.xy *=_BumpScale;
-                tangentNormal.z = sqrt(1.0 - saturate(dot(tangentNormal.xy,tangentNormal.xy)));
+                // tangentNormal = UnpackNormal(packedNormal);
+                // tangentNormal.xy *=_BumpScale;
+                // tangentNormal.z = sqrt(1.0 - saturate(dot(tangentNormal.xy,tangentNormal.xy)));
 
-                fixed3 albedo = tex2D(_MainTex,i.uv).rgb * _Color.rgb;
-                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;
-                fixed3 diffuse = _LightColor0.rgb * albedo * max(0,dot(tangentNormal,tangentLightDir));
-                fixed3 halfDir = normalize(tangentLightDir + tangentViewDir);
-                fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(max(0,dot(tangentNormal,halfDir)),_Gloss);
+                // fixed3 albedo = tex2D(_MainTex,i.uv).rgb * _Color.rgb;
+                // fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;
+                // fixed3 diffuse = _LightColor0.rgb * albedo * max(0,dot(tangentNormal,tangentLightDir));
+                // fixed3 halfDir = normalize(tangentLightDir + tangentViewDir);
+                // fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(max(0,dot(tangentNormal,halfDir)),_Gloss);
 
                 //获得世界空间的位置     
                 float3 worldPos = float3(i.TtoW0.w, i.TtoW1.w, i.TtoW2.w);

@@ -55,11 +55,11 @@ Shader "Unity Shaders Book/Chapter 7/Normal Map In Tangent"
                 o.uv.xy = v.uv.xy * _MainTex_ST.xy + _MainTex_ST.zw;
                 o.uv.zw = v.uv.xy * _BumpMap_ST.xy + _BumpMap_ST.zw;
                 // 计算副法线
-                //  float3 binormal = cross( normalize(v.normal), normalize(v.tangent.xyz) ) * v.tangent.w;
+                 float3 binormal = cross( normalize(v.normal), normalize(v.tangent.xyz) ) * v.tangent.w;
                 //  // 构造一个矩阵，将向量从对象空间变换到切线空间
-                //  float3x3 rotation = float3x3(v.tangent.xyz, binormal, v.normal);
+                 float3x3 rotation = float3x3(v.tangent.xyz, binormal, v.normal);
                 // 或者只使用内置宏
-                TANGENT_SPACE_ROTATION;
+                // TANGENT_SPACE_ROTATION;
                 //将灯光方向从对象空间转换为相切空间
                 o.lightDir = mul(rotation, ObjSpaceLightDir(v.vertex)).xyz;
                 o.viewDir = mul(rotation,ObjSpaceViewDir(v.vertex)).xyz;
