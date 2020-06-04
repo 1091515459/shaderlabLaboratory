@@ -80,13 +80,6 @@ Shader "Unity Shaders Book/Chapter 7/Normal Map World Space"
                 // tangentNormal = UnpackNormal(packedNormal);
                 // tangentNormal.xy *=_BumpScale;
                 // tangentNormal.z = sqrt(1.0 - saturate(dot(tangentNormal.xy,tangentNormal.xy)));
-
-                // fixed3 albedo = tex2D(_MainTex,i.uv).rgb * _Color.rgb;
-                // fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;
-                // fixed3 diffuse = _LightColor0.rgb * albedo * max(0,dot(tangentNormal,tangentLightDir));
-                // fixed3 halfDir = normalize(tangentLightDir + tangentViewDir);
-                // fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(max(0,dot(tangentNormal,halfDir)),_Gloss);
-
                 //获得世界空间的位置     
                 float3 worldPos = float3(i.TtoW0.w, i.TtoW1.w, i.TtoW2.w);
                 //计算世界空间中的灯光和视图方向
@@ -97,9 +90,14 @@ Shader "Unity Shaders Book/Chapter 7/Normal Map World Space"
                 fixed3 bump = UnpackNormal(tex2D(_BumpMap, i.uv.zw));
                 bump.xy *= _BumpScale;
                 bump.z = sqrt(1.0 - saturate(dot(bump.xy, bump.xy)));
-                //从切线空间到世界空间的法向变换
+                //从切线空间到世界空间的法线变换
                 bump = normalize(half3(dot(i.TtoW0.xyz, bump), dot(i.TtoW1.xyz, bump), dot(i.TtoW2.xyz, bump)));
 
+                fixed3 albedo = tex2D(_MainTex,i.uv).rgb * _Color.rgb;
+                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz * albedo;
+                fixed3 diffuse = _LightColor0.rgb * albedo * max(0,dot(bump,lightDir));
+                fixed3 halfDir = normalize(lightDir + viewDir);
+                fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(max(0,dot(bump,halfDir)),_Gloss);
 
                 return fixed4(ambient + diffuse + specular,1.0);
             }
