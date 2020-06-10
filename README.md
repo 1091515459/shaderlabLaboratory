@@ -2,7 +2,7 @@
 
 # shader从入门到跑路
 
-学习自（https://zhuanlan.zhihu.com/c_1165705647601025024）。
+学习自https://zhuanlan.zhihu.com/c_1165705647601025024
 
 ## Part1
 
