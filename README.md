@@ -2,6 +2,8 @@
 
 # shader从入门到跑路
 
+[![Build status](https://ci.appveyor.com/api/projects/status/rx2xy5srhmv3kbkd/branch/master?svg=true)](https://github.com/1091515459/shaderlabLaboratory/releases)
+
 学习自https://zhuanlan.zhihu.com/c_1165705647601026024
 
 ## Part1
