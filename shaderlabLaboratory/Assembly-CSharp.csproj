@@ -73,6 +73,7 @@
      <None Include="Assets\UnityShader入门精要\7\Resource\shader\RampTexture.shader" />
      <None Include="Assets\UnityShader入门精要\6\Test\test1.shader" />
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\HalfLambert.shader" />
+     <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphtTest.shader" />
      <None Include="Assets\model\1532071677_941.fbx\说明read me_3DXY.txt" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\AntiColor.shader" />
      <None Include="Assets\shader从入门到跑路\Part3\shaders\EdgeDetection.shader" />
@@ -81,6 +82,7 @@
      <None Include="Assets\model\1539849352_8834.fbx\说明read me_3DXY.txt" />
      <None Include="Assets\UnityShaderVariables.cginc" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\ReplacementSelfTesting.shader" />
+     <None Include="Assets\UnityShader入门精要\7\Resource\shader\MaskTexture.shader" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\DoubleTransparent.shader" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\DepthShader_Traget.shader" />
      <None Include="Assets\shader从入门到跑路\Part3\shaders\Perspective.shader" />
