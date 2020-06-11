@@ -48,6 +48,7 @@
      <Compile Include="Assets\shader从入门到跑路\Part1\Scripts\PostEffects.cs" />
      <Compile Include="Assets\shader从入门到跑路\Part2\Scripts\ReplacementShaderEffect.cs" />
      <Compile Include="Assets\shader从入门到跑路\Part2\Scripts\ReplacementShaderEffect1.cs" />
+     <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphtBlend.shader" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\DepthShader.shader" />
      <None Include="Assets\UnityShader入门精要\7\Resource\shader\SingleTexture.shader" />
      <None Include="Assets\UnityShader入门精要\7\Resource\shader\NormalMapTangentSpace.shader" />
@@ -64,6 +65,7 @@
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn3.shader" />
      <None Include="Assets\shader从入门到跑路\Part3\shaders\ViewNormal.shader" />
      <None Include="Assets\UnityShader入门精要\6\Test\test2.shader" />
+     <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphtBlendZWrite.shader" />
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn6.shader" />
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn7.shader" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\DoubleTransparentRipple.shader" />
@@ -75,6 +77,7 @@
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\HalfLambert.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphtTest.shader" />
      <None Include="Assets\model\1532071677_941.fbx\说明read me_3DXY.txt" />
+     <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphtBlendStyle.shader" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\AntiColor.shader" />
      <None Include="Assets\shader从入门到跑路\Part3\shaders\EdgeDetection.shader" />
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\BlinnPhong.shader" />
