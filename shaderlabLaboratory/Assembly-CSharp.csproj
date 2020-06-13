@@ -81,6 +81,7 @@
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn2.shader" />
      <None Include="Assets\UnityShader入门精要\7\Resource\shader\RampTexture.shader" />
      <None Include="Assets\UnityShader入门精要\6\Test\test1.shader" />
+     <None Include="Assets\UnityShader入门精要\9\Resource\shader\ForwardRandering.shader" />
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\HalfLambert.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaTest.shader" />
      <None Include="Assets\model\1532071677_941.fbx\说明read me_3DXY.txt" />
