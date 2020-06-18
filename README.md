@@ -1,18 +1,18 @@
-@[TOC](shaderlab实验室)
-
-# shader从入门到跑路
+# shaderlab实验室
 
 [![Build status](https://ci.appveyor.com/api/projects/status/rx2xy5srhmv3kbkd/branch/master?svg=true)](https://github.com/1091515459/shaderlabLaboratory/releases)
 
+## shader从入门到跑路
+
 学习自https://zhuanlan.zhihu.com/c_1165705647601026024
 
-## Part1
+### Part1
 
 **自定义纹理输入、屏幕扭曲效果、灰度图、屏幕后处理**：
 
 <img src="https://github.com/1091515459/shaderlabLaboratory/blob/master/illustration/part1.png" width="60%" height="60%">
 
-## Part 2
+### Part 2
 
 **屏幕后处理、替换渲染、Pass渲染**：
 
@@ -27,7 +27,7 @@
 <img src="https://github.com/1091515459/shaderlabLaboratory/blob/master/illustration/part2test4.gif" width="60%" height="60%">
 <img src="https://github.com/1091515459/shaderlabLaboratory/blob/master/illustration/part2test4_1.gif" width="60%" height="60%">
 
-## Part 3
+### Part 3
 
 **屏幕后处理、替换渲染、Pass渲染**：
 
