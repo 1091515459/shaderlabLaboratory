@@ -74,6 +74,7 @@
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaBlendZWrite.shader" />
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn6.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaBlendStyle 7.shader" />
+     <None Include="Assets\UnityShader入门精要\9\Resource\shader\AttenuationAndShadowUse BuildInFunctions.shader" />
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn7.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaBlendStyle 2.shader" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\DoubleTransparentRipple.shader" />
