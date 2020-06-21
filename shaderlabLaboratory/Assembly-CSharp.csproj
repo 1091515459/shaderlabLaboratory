@@ -65,6 +65,7 @@
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\DiffuseVertexLevel.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaBlendStyle 8.shader" />
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\SpecularVertexLevel.shader" />
+     <None Include="Assets\UnityShader入门精要\9\Resource\shader\AlphaBlendZWriteWithShadow.shader" />
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn1.shader" />
      <None Include="Assets\UnityShader入门精要\7\Resource\shader\NormalMapWorldSpace.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaBlendStyle 5.shader" />
@@ -77,6 +78,7 @@
      <None Include="Assets\UnityShader入门精要\9\Resource\shader\AttenuationAndShadowUse BuildInFunctions.shader" />
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn7.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaBlendStyle 2.shader" />
+     <None Include="Assets\UnityShader入门精要\9\Resource\shader\AlphaTestWithShadow.shader" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\DoubleTransparentRipple.shader" />
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\DiffusePixeLevel.shader" />
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\BlinnPhongUseBuildInFunction.shader" />
