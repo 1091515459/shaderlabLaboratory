@@ -62,6 +62,7 @@
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\SpecularPixelLevel.shader" />
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn4.shader" />
      <None Include="Assets\UnityCG.cginc" />
+     <None Include="Assets\UnityShader入门精要\10\Resource\shader\Mirror.shader" />
      <None Include="Assets\shader从入门到跑路\Part2\shaders\OverDrawShader.shader" />
      <None Include="Assets\UnityShader入门精要\9\Resource\shader\Shadow.shader" />
      <None Include="Assets\UnityShader入门精要\6\Resource\shader\DiffuseVertexLevel.shader" />
