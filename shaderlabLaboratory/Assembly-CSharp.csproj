@@ -73,6 +73,7 @@
      <None Include="Assets\UnityShader入门精要\7\Resource\shader\NormalMapWorldSpace.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaBlendStyle 5.shader" />
      <None Include="Assets\shader从入门到跑路\Part1\shaders\shaderLearn3.shader" />
+     <None Include="Assets\UnityShader入门精要\10\Resource\shader\GlassRefraction.shader" />
      <None Include="Assets\shader从入门到跑路\Part3\shaders\ViewNormal.shader" />
      <None Include="Assets\UnityShader入门精要\6\Test\test2.shader" />
      <None Include="Assets\UnityShader入门精要\8\Resource\shader\AlphaBlendZWrite.shader" />
